@@ -1,0 +1,32 @@
+###
+POST http://localhost:3000/createUser
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "age": 25
+}
+
+###
+
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/getuser/6745f6e5437a8e9a8729568b
+
+###
+
+PUT http://localhost:3000/updateuser/6745fa43437a8e9a8729568f
+Content-Type: application/json
+
+{
+    "name": "Johnny",
+    "email": "jonny@example.com",
+    "age": 23
+}
+
+###
+
+DELETE http://localhost:3000/deleteuser/6745fa43437a8e9a8729568f
